@@ -3,7 +3,7 @@ import { supabase } from '../lib/supabase'
 import { useAuth } from './useAuth'
 import type { Message, Conversation } from '../types'
 
-const WEBHOOK_URL = 'https://project9954.app.n8n.cloud/webhook/82edde5e-5bca-4635-86d5-7b7580005c74'
+const WEBHOOK_URL = 'https://proiu.app.n8n.cloud/webhook/82edde5e-5bca-4635-86d5-7b7580005c74'
 
 export const useChat = () => {
   const { user } = useAuth()
